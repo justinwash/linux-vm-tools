@@ -11,6 +11,7 @@ $ pacman –Sy
 $ pacman –S xf86-video-fbdev
 $ systemctl restart lightdm
 ```
+* Install Manjaro
 * Reboot then press ```ctrl+alt+F2``` again. Install ```linux-vm-tools``` from this repo
 ```
 $ sudo pacman –Sy
