@@ -1,6 +1,6 @@
 # Linux VM Tools for Arch
 
-## Full Install Instructions
+## Full Install Instructions for Manjaro
 
 * Create a Hyper-V Virtual Machine, make sure to disable Secure Boot
 * On startup, press ```ctrl+alt+F2``` to get to a shell and log in with the default username/password
