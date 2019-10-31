@@ -31,7 +31,7 @@ The edited line should read
 ```
 local dbus_args=(--sh-syntax)
 ```
-* Add ```xrdp``` to the ```IgnorePkg``` line in your pacman configuration so it doesn't update and break itself. ```sudo vi /etc/pacman.conf```
+* Add ```xrdp``` to the ```IgnorePkg``` line in your pacman configuration so it doesn't update and break itself. ```sudo nano /etc/pacman.conf```
 * Shut down your VM and issue this Windows PowerShell command to enable Enhanced Session mode for your VM.
 ```
 Set-VM -VMName _Your_Manjaro_VM_ -EnhancedSessionTransportType HvSocket
